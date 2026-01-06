@@ -1,16 +1,66 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website designed to showcase identity, skills, and work. Built with React, Vite, and Tailwind CSS, focusing on a clean aesthetic and smooth user experience.
 
-Currently, two official plugins are available:
+![Project Preview](/docs/qa/desktop-preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+*   **Hero Section:** Engaging introduction with a dynamic typing animation for roles.
+*   **Projects Showcase:** Filterable grid view of case studies with detailed modal views.
+*   **Skills Dashboard:** Categorized display of technical proficiency.
+*   **Experience Timeline:** Impact-focused professional history.
+*   **Testimonials:** Slider component for social proof.
+*   **Contact Form:** Functional email integration using EmailJS.
+*   **Dark/Light Mode:** Seamless theme switching with persistent user preference.
+*   **Responsive Design:** Fully optimized for mobile, tablet, and desktop devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+*   **Frontend Library:** [React 19](https://react.dev/)
+*   **Build Tool:** [Vite](https://vitejs.dev/)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+*   **Animations:** [Framer Motion](https://www.framer.com/motion/)
+*   **Icons:** [Lucide React](https://lucide.dev/)
+*   **Form Handling:** [React Hook Form](https://react-hook-form.com/) & [EmailJS](https://www.emailjs.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/yourusername/yash_portfolio.git
+    cd yash_portfolio
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build for production**
+    ```bash
+    npm run build
+    ```
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/       # Reusable UI components
+│   ├── common/       # Buttons, Cards, Inputs
+│   ├── layout/       # Navbar, Footer
+│   └── sections/     # Page sections (Hero, Projects, etc.)
+├── context/          # Global state (ThemeContext)
+├── data/             # Static content data (projects, skills)
+├── hooks/            # Custom React hooks
+└── styles/           # Global styles and Tailwind config
+```
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
