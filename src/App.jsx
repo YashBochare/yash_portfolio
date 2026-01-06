@@ -1,12 +1,24 @@
-import { useState } from 'react'
+import { Layout } from './components/layout/Layout'
+import { Hero } from './components/sections/Hero'
+import { About } from './components/sections/About'
+import { Skills } from './components/sections/Skills'
+import { Certificates } from './components/sections/Certificates'
+import { Projects } from './components/sections/Projects'
+import { Experience } from './components/sections/Experience'
+
+import { Contact } from './components/sections/Contact'
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-50 flex items-center justify-center">
-      <h1 className="text-3xl font-bold underline">
-        Portfolio Setup Complete
-      </h1>
-    </div>
+    <Layout>
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Certificates />
+      <Contact />
+    </Layout>
   )
 }
 

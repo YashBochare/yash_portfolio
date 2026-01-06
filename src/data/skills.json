@@ -1,0 +1,23 @@
+{
+  "Languages": [
+    "JavaScript (ES6+)",
+    "HTML5",
+    "CSS3",
+    "Python",
+    "Java"
+  ],
+  "Frameworks & Libraries": [
+    "React.js",
+    "Tailwind CSS",
+    "framer-motion",
+    "Node.js",
+    "Express.js"
+  ],
+  "Tools & Databases": [
+    "Git & GitHub",
+    "VS Code",
+    "MongoDB",
+    "Postman",
+    "Figma"
+  ]
+}

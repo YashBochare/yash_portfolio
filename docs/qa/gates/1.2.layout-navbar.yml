@@ -1,0 +1,17 @@
+schema: 1
+story: '1.2'
+story_title: 'Implement Global Layout & Responsive Navbar'
+gate: PASS
+status_reason: 'Components implemented correctly with responsive behavior and accessibility considerations.'
+reviewer: 'Quinn (Test Architect)'
+updated: '2026-01-07T01:00:00+05:30'
+
+top_issues: []
+waiver: { active: false }
+
+evidence:
+  tests_reviewed: 1 # Manual verification and lint/build pass
+  risks_identified: 0
+  trace:
+    ac_covered: [1, 2, 3, 4, 5]
+    ac_gaps: []

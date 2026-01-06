@@ -1,0 +1,17 @@
+schema: 1
+story: '4.1'
+story_title: 'Build Experience Timeline'
+gate: PASS
+status_reason: 'Timeline renders correctly with vertical connector. Data is visible.'
+reviewer: 'Quinn (Test Architect)'
+updated: '2026-01-07T01:38:00+05:30'
+
+top_issues: []
+waiver: { active: false }
+
+evidence:
+  tests_reviewed: 1
+  risks_identified: 0
+  trace:
+    ac_covered: [1, 2, 3, 4, 5]
+    ac_gaps: []

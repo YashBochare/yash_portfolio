@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "role": "Senior Frontend Engineer",
+    "company": "Tech Solutions Inc.",
+    "range": "2023 - Present",
+    "description": [
+      "Led the migration of a legacy monolithic application to a micro-frontend architecture using React and Module Federation.",
+      "Improved site performance by 35% through code splitting, lazy loading, and image optimization.",
+      "Mentored junior developers and established coding standards for the frontend team."
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Frontend Developer",
+    "company": "Creative Agency",
+    "range": "2021 - 2023",
+    "description": [
+      "Developed responsive and accessible websites for diverse clients using React, Next.js, and Tailwind CSS.",
+      "Collaborated closely with designers to implement pixel-perfect UIs and complex animations.",
+      "Integrated Headless CMS solutions (Strapi, Contentful) to enable content management for non-technical clients."
+    ]
+  },
+  {
+    "id": 3,
+    "role": "Web Development Intern",
+    "company": "StartUp Hub",
+    "range": "2020 - 2021",
+    "description": [
+      "Assisted in building UI components and fixing bugs for the company's main product.",
+      "Gained hands-on experience with modern JavaScript (ES6+) and Git version control.",
+      "Participated in daily stand-ups and sprint planning meetings."
+    ]
+  }
+]

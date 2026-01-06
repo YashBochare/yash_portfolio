@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Dashboard",
+    "category": "React",
+    "image": "https://placehold.co/600x400/2563eb/ffffff?text=E-Commerce+App",
+    "description": "A comprehensive dashboard for managing online store inventory, orders, and analytics with real-time data visualization.",
+    "technologies": ["React", "Tailwind CSS", "Recharts", "Node.js"],
+    "caseStudy": {
+      "problem": "Client needed a centralized platform to manage inventory across multiple channels with real-time sales tracking.",
+      "solution": "Built a SPA using React and Recharts for visualization, connected to a Node.js backend. Implemented optimistic UI updates for better UX.",
+      "result": "Reduced inventory management time by 40% and provided actionable insights through data visualization."
+    }
+  },
+  {
+    "id": 2,
+    "title": "Task Management App",
+    "category": "Fullstack",
+    "image": "https://placehold.co/600x400/1e293b/ffffff?text=Task+Manager",
+    "description": "Collaborative task management tool with drag-and-drop kanban boards and team real-time updates.",
+    "technologies": ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
+    "caseStudy": {
+      "problem": "Remote teams struggled with syncing task status in real-time without refreshing pages.",
+      "solution": "Leveraged Vercel KV and server actions in Next.js for efficient state management and real-time reflection.",
+      "result": "Improved team coordination and reduced missed deadlines by 25%."
+    }
+  },
+  {
+    "id": 3,
+    "title": "Portfolio Website",
+    "category": "Design",
+    "image": "https://placehold.co/600x400/0f172a/ffffff?text=Portfolio+Design",
+    "description": "Modern, accessible, and performant personal portfolio website with dark mode and smooth animations.",
+    "technologies": ["React", "Framer Motion", "Tailwind CSS", "Figma"],
+    "caseStudy": {
+      "problem": "Needed a unique professional presence to showcase projects and skills effectively.",
+      "solution": "Designed a minimal yet interactive UI. Used Framer Motion for revealing content and ensuring high accessibility standards.",
+      "result": "Achieved 100/100 Lighthouse score and received positive feedback on UX/UI design."
+    }
+  },
+  {
+    "id": 4,
+    "title": "Weather Forecast App",
+    "category": "React",
+    "image": "https://placehold.co/600x400/3b82f6/ffffff?text=Weather+App",
+    "description": "Beautiful weather application providing detailed forecasts using external APIs and geolocation.",
+    "technologies": ["React", "OpenWeatherMap API", "Styled Components"],
+    "caseStudy": {
+      "problem": "Users wanted a simple, no-clutter interface to check weather quickly.",
+      "solution": "Focused on typography and extensive use of icons. Implemented caching to reduce API calls.",
+      "result": "High user retention and fast load times even on slow networks."
+    }
+  }
+]
